@@ -15,13 +15,11 @@ public class OlaMundoTest
     {
         String resultGreet = HelloWorld.Greet();
         Assert.Equal(Expected, resultGreet);
-
     }
 }
 
 public class OlaMundoTestReq2
 {
-
     [Trait("Category", "2. Retorne a string 'Seja bem-vindo, Tryber!'")]
     [Theory(DisplayName = "Deve retornar a string Seja bem-vindo, Tryber!")]
     [InlineData("Seja bem-vindo, Tryber!")]
@@ -29,6 +27,5 @@ public class OlaMundoTestReq2
     {
         String resultGreet = HelloWorld.GreetTryber();
         Assert.Equal(Expected, resultGreet);
-
     }
 }

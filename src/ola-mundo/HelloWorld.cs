@@ -2,7 +2,7 @@ using System;
 
 namespace ola_mundo;
 
-public class HelloWorld
+public static class HelloWorld
 {
     // 1 - Retorne a string 'Olá, Mundo!'
     public static string Greet()
